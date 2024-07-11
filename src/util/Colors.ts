@@ -8,6 +8,7 @@ export const colors = {
         blue: "\x1b[34m",
         magenta: "\x1b[35m",
         cyan: "\x1b[36m",
+        pink: "\x1b[38;2;255;105;180m",
         white: "\x1b[37m",
         gray: "\x1b[90m",
         crimson: "\x1b[38m",

@@ -120,7 +120,7 @@ export function main() {
                             break;
                     }
                 }
-            
+        
                 case 5: 
                         console.log(colors.fg.whitestrong, "\n\nApagar um Produto\n\n", colors.reset);
         

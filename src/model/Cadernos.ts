@@ -2,23 +2,23 @@ import { Produto } from "./Produto";
 
 export class Cadernos extends Produto{
 
-    private _cadernos: string;
+    private _capas: string;
 
 	constructor(id: number, nome: string, tipo: number, preco: number, Cadernos: string) {
         super(id, nome, tipo, preco);
-		this._cadernos = Cadernos;
+		this._capas = Cadernos;
 	}
 
 	public get Cadernos(): string {
-		return this._cadernos;
+		return this._capas;
 	}
 
 	public set Cadernos(value: string) {
-		this._cadernos = value;
+		this._capas = value;
 	}
     
     public visualizar(): void {
-        console.log(`\nCadernos: ${this._cadernos}`);
+        console.log(`\nCapas: ${this._capas}`);
     }
 
 }
